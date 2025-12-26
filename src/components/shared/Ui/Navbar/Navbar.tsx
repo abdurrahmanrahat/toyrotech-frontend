@@ -30,7 +30,7 @@ export default async function Navbar() {
   return (
     <nav className="sticky top-0 z-40 w-full border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-deep-dark">
       <Container className="">
-        <div className="flex h-12 md:h-16 2xl:h-[70px] items-center justify-between">
+        <div className="flex h-14 md:h-16 2xl:h-[70px] items-center justify-between">
           {/* Left: Logo + Mobile Menu */}
           <div className="flex items-center gap-3">
             {/* Mobile Drawer (client) */}

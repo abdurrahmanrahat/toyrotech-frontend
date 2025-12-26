@@ -5,9 +5,9 @@
 
 @theme {
   /* make it 100 - 900 variants for primary color */
-  --color-primary: #332F61;
+  --color-primary: #F85606;
   --color-light-gray: #F1F1F1;
-  --color-secondary: #c72e2e;
+  --color-secondary: #df4d05;
   --color-deep-dark: #0f151d;
   --color-dark: #080708;
   --color-destructive: #EF4343;

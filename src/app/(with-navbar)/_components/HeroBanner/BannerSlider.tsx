@@ -14,35 +14,27 @@ type TSlide = {
   description: string;
   image: string;
   buttonText: string;
+  buttonHref: string;
 };
 
 const slides: TSlide[] = [
   {
     id: 1,
-    title: "Apple iPhone 14 Series",
+    title: "Portable Travel Electric Kettle",
     subtitle: "Up to 10% Off",
-    description: "Exclusive voucher on latest iPhones",
-    image:
-      "https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=900&h=600&fit=crop",
+    description: "Compact design for daily travel use",
+    image: "https://i.ibb.co/1YRfCwHr/Electric-Kettles1.png",
     buttonText: "Shop Now",
+    buttonHref: "/shop/portable-travel-folding-electric-kettle",
   },
   {
     id: 2,
-    title: "Latest Smartphones",
+    title: "High-Power LED Flashlight",
     subtitle: "Up to 15% Off",
-    description: "Hot deals on flagship models",
-    image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&h=600&fit=crop",
+    description: "Ultra bright for outdoor safety",
+    image: "https://i.ibb.co/bjHkdKWR/lighting1.jpg",
     buttonText: "Shop Now",
-  },
-  {
-    id: 3,
-    title: "Premium Audio",
-    subtitle: "Up to 20% Off",
-    description: "Discounts on top-notch headphones",
-    image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&h=600&fit=crop",
-    buttonText: "Shop Now",
+    buttonHref: "/shop/high-power-rechargeable-led-flashlight",
   },
 ];
 
@@ -145,7 +137,10 @@ export default function BannerSlider() {
                 {slides[currentSlide].description}
               </p>
 
-              <Link href="/shop" className="inline-block relative z-30">
+              <Link
+                href={slides[currentSlide].buttonHref}
+                className="inline-block relative z-30"
+              >
                 <Button
                   variant="outline"
                   className="mt-4 text-white border-primary hover:bg-primary hover:text-white transition-all duration-300 cursor-pointer font-medium tracking-wide px-6 2xl:px-8 py-2 2xl:py-3 rounded-md"

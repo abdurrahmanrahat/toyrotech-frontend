@@ -18,12 +18,12 @@ const quickLinks = [
 
 const categories = [
   {
-    label: "Smartphones & Accessories",
-    href: "/shop?category=smartphones-and-accessories",
+    label: "Gadgets",
+    href: "/shop?category=gadgets",
   },
   {
-    label: "Laptops & Computers",
-    href: "/shop?category=laptops-and-computers",
+    label: "Home Appliances",
+    href: "/shop?category=home-appliances",
   },
   {
     label: "Smart Wearables",
@@ -124,7 +124,7 @@ const Footer = () => {
               <li className="flex items-start group">
                 <MapPin className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm 2xl:text-base leading-relaxed">
-                  123 Repair Street, Electronics District, 12345
+                  Lakshmipur, Bangladesh
                 </span>
               </li>
               <li className="flex items-center group">
@@ -133,7 +133,7 @@ const Footer = () => {
                   href="tel:+12345678900"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm 2xl:text-base"
                 >
-                  +1 (234) 567-8900
+                  +8801316315709
                 </a>
               </li>
               <li className="flex items-center group">
@@ -142,7 +142,7 @@ const Footer = () => {
                   href="mailto:support@toyrotech.com"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 text-sm 2xl:text-base"
                 >
-                  support@toyrotech.com
+                  toyrotech@gmail.com
                 </a>
               </li>
             </ul>
