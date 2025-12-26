@@ -20,7 +20,7 @@ export const getAllProductsFromDB = async (
       `${process.env.NEXT_PUBLIC_BACKED_URL}/products${queryParams}`,
       {
         cache: "force-cache",
-        next: { tags: [tagLists.PRODUCT] },
+        next: { tags: [tagLists.PRODUCT, "max"] },
       }
     );
 
@@ -60,7 +60,7 @@ export const getSingleProductFromDB = async (
       `${process.env.NEXT_PUBLIC_BACKED_URL}/products/${productSlug}`,
       {
         cache: "force-cache",
-        next: { tags: [tagLists.PRODUCT] },
+        next: { tags: [tagLists.PRODUCT, "max"] },
       }
     );
 
@@ -107,7 +107,7 @@ export const addProductToDB = async (
     );
 
     const data = await res.json();
-    revalidateTag(tagLists.PRODUCT);
+    revalidateTag(tagLists.PRODUCT, "max");
 
     if (data?.success) {
       return {
@@ -155,7 +155,7 @@ export const updateProductInDB = async (
     }
 
     const data = await res.json();
-    revalidateTag(tagLists.PRODUCT);
+    revalidateTag(tagLists.PRODUCT, "max");
 
     if (data?.success) {
       return {
@@ -200,7 +200,7 @@ export const deleteProductFromDB = async (
     }
 
     const data = await res.json();
-    revalidateTag(tagLists.PRODUCT);
+    revalidateTag(tagLists.PRODUCT, "max");
 
     if (data?.success) {
       return {

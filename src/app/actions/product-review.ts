@@ -24,7 +24,7 @@ export const createProductReviewToDB = async (
     );
 
     const data = await res.json();
-    revalidateTag(tagLists.PRODUCT_REVIEW);
+    revalidateTag(tagLists.PRODUCT_REVIEW, "max");
 
     if (data?.success) {
       return {
@@ -61,7 +61,7 @@ export const getProductReviewsFromDB = async (
       `${process.env.NEXT_PUBLIC_BACKED_URL}/products/${productId}/reviews${queryParams}`,
       {
         cache: "force-cache",
-        next: { tags: [tagLists.PRODUCT_REVIEW] },
+        next: { tags: [tagLists.PRODUCT_REVIEW, "max"] },
       }
     );
 
@@ -97,7 +97,7 @@ export const getProductReviewsStatsFromDB = async (
       `${process.env.NEXT_PUBLIC_BACKED_URL}/products/${productId}/reviews/stats`,
       {
         cache: "force-cache",
-        next: { tags: [tagLists.PRODUCT_REVIEW] },
+        next: { tags: [tagLists.PRODUCT_REVIEW, "max"] },
       }
     );
 
@@ -180,7 +180,7 @@ export const deleteReviewFromDB = async (
     );
 
     const data = await res.json();
-    revalidateTag(tagLists.PRODUCT_REVIEW);
+    revalidateTag(tagLists.PRODUCT_REVIEW, "max");
 
     if (data?.success) {
       return {
@@ -218,8 +218,8 @@ export const approveReviewInDB = async (
     );
 
     const data = await res.json();
-    revalidateTag(tagLists.PRODUCT_REVIEW);
-    revalidateTag(tagLists.PRODUCT);
+    revalidateTag(tagLists.PRODUCT_REVIEW, "max");
+    revalidateTag(tagLists.PRODUCT, "max");
 
     if (data?.success) {
       return {
