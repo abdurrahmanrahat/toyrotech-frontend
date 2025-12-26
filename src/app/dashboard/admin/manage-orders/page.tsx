@@ -22,7 +22,7 @@ import OrdersStatus from "./_components/OrdersStatus";
 import OrderStatusUpdateModal from "./_components/OrderStatusUpdateModal";
 
 export const metadata: Metadata = {
-  title: "Manage Orders > Dashboard | Gadgetoria",
+  title: "Manage Orders > Dashboard | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

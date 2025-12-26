@@ -20,7 +20,7 @@ import { CheckoutSteps } from "../../../components/common/Cart/CheckoutSteps";
 import { InvoiceDownloadButton } from "./_components/InvoiceDownloadButton";
 
 export const metadata: Metadata = {
-  title: "Order Success | Gadgetoria",
+  title: "Order Success | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

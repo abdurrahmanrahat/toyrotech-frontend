@@ -4,7 +4,7 @@ import Link from "next/link";
 import SignupForm from "./_components/SignupForm";
 
 export const metadata: Metadata = {
-  title: "Signup | Gadgetoria",
+  title: "Signup | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

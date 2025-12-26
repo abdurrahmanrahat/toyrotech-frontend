@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import AdminLayout from "./layout/AdminLayout";
 
 export const metadata: Metadata = {
-  title: "Admin Dashboard | Gadgetoria",
+  title: "Admin Dashboard | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

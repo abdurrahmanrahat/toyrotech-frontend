@@ -18,7 +18,7 @@ import ReviewsStatusFilter from "./_components/ReviewsStatusFilter";
 import ReviewTableRow from "./_components/ReviewTableRow";
 
 export const metadata: Metadata = {
-  title: "Manage Reviews > Dashboard | Gadgetoria",
+  title: "Manage Reviews > Dashboard | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

@@ -7,7 +7,7 @@ import { MdKeyboardBackspace } from "react-icons/md";
 import AddProductForm from "./_components/AddProductForm";
 
 export const metadata: Metadata = {
-  title: "Add Product > Dashboard | Gadgetoria",
+  title: "Add Product > Dashboard | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

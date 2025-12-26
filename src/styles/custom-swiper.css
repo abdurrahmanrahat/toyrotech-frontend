@@ -7,7 +7,7 @@
     background-color: transparent;
     font-weight: bold;
     /* optional */
-    color: #DD3333 !important;
+    color: #332F61 !important;
     /* arrow color */
 }
 
@@ -38,7 +38,7 @@
 
 /* Active bullet */
 .swiper-pagination-bullet-active {
-    background-color: #DD3333 !important;
+    background-color: #332F61 !important;
     /* your brand color */
     transform: scale(1.1);
     /* optional: make active bullet bigger */

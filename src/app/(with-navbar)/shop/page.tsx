@@ -13,7 +13,7 @@ import MobileFilterToggle from "./_components/MobileFilterToggle";
 import { ProductCard } from "./_components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Shop | Gadgetoria",
+  title: "Shop | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

@@ -5,7 +5,7 @@ import HeroBanner from "./_components/HeroBanner/HeroBanner";
 import RecentProducts from "./_components/RecentProducts/RecentProducts";
 
 export const metadata: Metadata = {
-  title: "Home | Gadgetoria",
+  title: "Home | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

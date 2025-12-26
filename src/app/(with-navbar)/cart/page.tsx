@@ -4,7 +4,7 @@ import { CheckoutSteps } from "../../../components/common/Cart/CheckoutSteps";
 import CartLists from "./_components/CartLists";
 
 export const metadata: Metadata = {
-  title: "Cart | Gadgetoria",
+  title: "Cart | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

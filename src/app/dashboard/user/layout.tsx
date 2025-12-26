@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import UserLayout from "./layout/UserLayout";
 
 export const metadata: Metadata = {
-  title: "User Dashboard | Gadgetoria",
+  title: "User Dashboard | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };

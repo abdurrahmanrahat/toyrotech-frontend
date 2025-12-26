@@ -43,7 +43,7 @@ export default async function Navbar() {
 
             <Link href="/">
               <span className="font-bold text-xl 2xl:text-2xl bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent uppercase">
-                Gadgetoria
+                Toyrotech
               </span>
             </Link>
           </div>
@@ -104,9 +104,9 @@ export default async function Navbar() {
             )}
           </div>
         </div>
-        <div className="md:hidden mb-4">
+        {/* <div className="md:hidden mb-4">
           <SearchInput />
-        </div>
+        </div> */}
       </Container>
     </nav>
   );

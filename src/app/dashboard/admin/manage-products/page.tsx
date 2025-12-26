@@ -27,7 +27,7 @@ import ProductsSearch from "./_components/ProductsSearch";
 import ProductsSort from "./_components/ProductsSort";
 
 export const metadata: Metadata = {
-  title: "Manage Products > Dashboard | Gadgetoria",
+  title: "Manage Products > Dashboard | Toyrotech",
   description:
     "Discover genuine electronic parts and accessories for every device",
 };
